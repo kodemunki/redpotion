@@ -3,7 +3,7 @@
 ```
 gem install redpotion
 
-potion create my_app
+potion new my_app
 bundle
 rake pod:install
 rake
@@ -27,7 +27,7 @@ add it to your `Gemfile`:
 Let's start by creating our app, do this:
 
 ```
-> potion create myapp
+> potion new myapp
 > cd myapp
 > rake
 ```
