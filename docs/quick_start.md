@@ -4,8 +4,8 @@
 gem install redpotion
 
 potion new my_app
-bundle
-rake pod:install
+cd my_app
+rake spec
 rake
 ```
 
